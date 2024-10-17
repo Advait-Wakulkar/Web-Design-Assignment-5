@@ -1,0 +1,12 @@
+@use '../base/variables';
+@use '../base/mixins'; // Add this line
+
+.btn {
+    @include mixins.button-styles(variables.$primary-color); // Reference the mixin with its namespace
+    display: inline-block; // Ensure it behaves like a block-level element
+    margin-bottom: 15px;
+}
+
+.btn-secondary {
+    @include mixins.button-styles(variables.$secondary-color); // Reference the mixin with its namespace
+}

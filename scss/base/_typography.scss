@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 20px; // Add padding on the left
+    font-family: 'Arial, sans-serif'; // Change font family
+    color: #34495e; // Darker color for headings
+    text-transform: capitalize; // Capitalize the first letter
+    margin-bottom: 10px; // Space below the headings
+
+    // Add different styles for different heading levels
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: semi-bold;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        font-weight: normal;
+    }
+}

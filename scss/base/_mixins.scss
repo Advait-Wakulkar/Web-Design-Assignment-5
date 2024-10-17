@@ -1,0 +1,17 @@
+@use "sass:color"; // Import the color module
+
+// Mixin for a responsive button
+@mixin button-styles($bg-color) {
+    background-color: $bg-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        // Use color.adjust instead of darken
+        background-color: color.adjust($bg-color, $lightness: -10%); 
+    }
+}

@@ -1,0 +1,17 @@
+// _flex.scss
+.testimonial-flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+  
+    .testimonial {
+      flex: 1;
+      background-color: lighten($secondary-color, 30%);
+      color: $light-color;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
